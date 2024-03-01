@@ -17,6 +17,14 @@ function generateMarkdown(data) {
   ## Description
   ${data.projectDesc}
 
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contribution Guidelines](#contribution-guidelines)
+  - [Tests](#tests)
+  - [Questions](#questions)
+
   ## Installation
   ${data.projectIns}
 
@@ -32,11 +40,8 @@ function generateMarkdown(data) {
   ## License
   ${data.license}
 
-  ## GitHub
-  ${data.github}
-
-  ## Emaiol
-  ${data.email}
+  ## Questions?
+  If you have any questions, please feel free to contact me on [GitHub](https://github.com/${data.github}) or via email at ${data.email}
 `;
 }
 
