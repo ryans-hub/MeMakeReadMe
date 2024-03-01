@@ -34,6 +34,21 @@ const questions = [
         message: 'Test Instructions?',
         name: 'test',
     },
+    {
+        type: 'checkbox',
+        message: 'Choose license(s)',
+        name: 'license',
+    },
+    {
+        type: 'input',
+        message: 'GitHub username?',
+        name: 'github',
+    },
+    {
+        type: 'input',
+        message: 'Email?',
+        name: 'email',
+    },
 ];
 
 // TODO: Create a function to write README file
